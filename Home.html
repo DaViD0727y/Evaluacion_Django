@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %} | Supermercado</title>
+    {% load static %}
+</head>
+<body>
+    <header>
+            <h1>Supermercado</h1>
+    
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Inicio</a></li>
+                <li><a href="{% url 'productos' %}">Productos</a></li>
+                <li><a href="{% url 'soporte' %}">Soporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a la sección de productos</h2></main>
+        <nav>
+            <ul>
+                <img src="#" alt="Frutas">
+                <li><a href="#">Frutas</a></li> 
+                <img src="#" alt="Ariculos de cocina">
+                <li><a href="#">Articulos de cocina</a></li>
+                <img src="#" alt="Granos">
+                <li><a href="#">Granos</a></li>
+                <img src="#" alt="Carnes">
+                <li><a href="#">Carnes</a></li>
+                <img src="#" alt="Articulos de limpieza">
+                <li><a href="#">Ariculos de limpieza</a></li>
+                <img src="#" alt="Bebidas">
+                <li><a href="#">Bebidas</a></li>
+                <img src="#" alt="Aseo personal">
+                <li><a href="#">Aseo personal</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2></h2>
+</body>
+</html>
